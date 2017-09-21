@@ -1,9 +1,46 @@
 body {
-  margin: 50px 100px 50px 100px;
   background: #DD6CA8;
 }
 
 .pig {
   width: 50%;
   margin: 0 auto;
+}
+
+.raf {
+width: 50%;
+margin: 0 auto;
+}
+
+.hedge {
+  width: 50%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .column {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .pig {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
 }
